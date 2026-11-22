@@ -1,0 +1,113 @@
+:root {
+    --bg-dark: #091413;
+    --surface-green: #285a48;
+    --accent-emerald: #408a71;
+    --text-mint: #b0e4cc;
+
+    --r-background-color: #091413;
+    --r-main-font: 'Anta', sans-serif;
+    --r-heading-font: 'Anta', sans-serif;
+    --r-main-color: #b0e4cc;
+    --r-heading-color: #b0e4cc;
+    --r-link-color: #408a71;
+    --r-link-color-hover: #b0e4cc;
+    --r-selection-background-color: #408a71;
+    --r-selection-color: #091413;
+}
+
+body,
+.reveal-viewport,
+.reveal {
+    background-color: var(--bg-dark) !important;
+    color: var(--text-mint) !important;
+    font-family: 'Anta', sans-serif !important;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+    font-family: 'Anta', sans-serif !important;
+    color: var(--text-mint) !important;
+    text-transform: none !important;
+    letter-spacing: 0.03em;
+}
+
+.reveal code {
+    font-family: 'Fira Code', monospace;
+}
+
+/* Estilo de tarjetas y contenedores */
+.card-panel {
+    background: rgba(40, 90, 72, 0.35);
+    border: 1px solid #408a71;
+    border-radius: 12px;
+    padding: 18px 24px;
+}
+
+/* Tablas con la paleta */
+.reveal table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.reveal table th {
+    background-color: #285a48;
+    color: #b0e4cc;
+    border: 1px solid #408a71;
+    padding: 12px;
+}
+
+.reveal table td {
+    background-color: rgba(9, 20, 19, 0.85);
+    border: 1px solid #285a48;
+    padding: 12px;
+}
+
+/* Botones interactivos */
+.btn-quest {
+    font-family: 'Anta', sans-serif;
+    background-color: #408a71;
+    color: #091413;
+    border: 2px solid #b0e4cc;
+    border-radius: 8px;
+    padding: 10px 22px;
+    font-size: 0.95em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.15s ease, background-color 0.2s ease;
+}
+
+.btn-quest:hover {
+    background-color: #b0e4cc;
+    color: #091413;
+    transform: translateY(-2px);
+}
+
+.btn-option {
+    font-family: 'Anta', sans-serif;
+    background-color: #285a48;
+    color: #b0e4cc;
+    border: 1px solid #408a71;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-option:hover {
+    background-color: #408a71;
+    color: #091413;
+    border-color: #b0e4cc;
+}
+
+/* Barra de progreso y controles de Reveal */
+.reveal .progress {
+    color: #408a71;
+    height: 5px;
+}
+
+.reveal .controls {
+    color: #408a71;
+}
